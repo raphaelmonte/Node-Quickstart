@@ -1,0 +1,31 @@
+{
+  "name": "node-typescript-webpack-quickstart",
+  "version": "1.0.0",
+  "description": "Node with Typescript and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack --config config/webpack/webpack.development.js",
+    "nodemon": "NODE_ENV=development nodemon build/index.js",
+    "build": "NODE_ENV=production webpack --config config/webpack/webpack.production.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphaelmonte/node-typescript-webpack-quickstart"
+  },
+  "author": "Raphael Monte",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "nodemon": "^1.19.4",
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-node-externals": "^1.7.2",
+    "webpack-shell-plugin": "^0.5.0"
+  }
+}
