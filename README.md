@@ -17,10 +17,15 @@ npm install
 # Development
 
 ```
-npm start
+npm run start
 ```
 
 # Production
 ```
-npm build
+npm run build
+```
+
+# Test
+```
+npm run test
 ```
