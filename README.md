@@ -5,6 +5,8 @@ This repository contains a simple quickstart of how to program on a node using T
 # This project was created using
 
 * Express
+* Jest
+* Supertest
 * Webpack
 * Typescript
 
